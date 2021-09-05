@@ -1,45 +1,52 @@
-# LinkFree
+# MNMLSM
 
-A free and open source alternative to LinkTree!
+MNMLSM is a simple theme inspired by the command line. It has a darkmode and no javascript. In other words: it is future proof.
 
-[Website](https://michaelbarney.github.io/LinkFree)
+Preview Light             |  Preview Dark
+:-------------------------:|:-------------------------:
+![Preview Light](preview-light.png) |   ![Preview Dark](preview-dark.png)
 
-<img src="https://i.imgur.com/B4LX0kY.png" alt="alt text" width="250px">
+The theme was created by [Ungeschneuer](https://github.com/ungeschneuer). A preview can be found [here](https://michaelbarney.github.io/LinkFree/Templates/mnmlsm/).
 
-## What is LinkFree?
+## Getting Started
 
-Ever wanted to add more links to your Instagram bio? LinkFree does just that! It gathers all of your links into one page that is easy to navigate.
+You should probably change the following things:
+- lang attribute for the html tag
+- title in head tag
+- favicon in asset folder
+- userPhoto in asset folder
+- userName
+- links (duh!)
+- footer content
 
-## What are the benefits?
+## Add a new link
 
-Compared to other solutions, LinkFree is fully customizable and open source!
+To add a new link, just duplicate an existing line between the links div or add a new one like this
 
-- No more pesky third party logos
-- Add your custom colors, images and fonts
-- Use full custom analytics and metrics platforms
-- Create your own template or use one made by the community!
+```
+<a class="link" href="#" target="_blank">#</a>
+```
 
-## How to use?
 
-To startoff, you can choose a template for your LinkFree in the "Templates" directory. Then you can clone or fork this repository to adapt it with your information.
+## Add Emojis
 
-You can fork this repository to your own account and there configure your personal page using github pages. This will let you make edits much faster.
+If you want to add emojis to your links, you can Copy/Paste them via [GetEmoji](https://getemoji.com/). For current Mac and Windows versions, there is also a system shortcut.
 
-## How to see statistics?
+Mac:
+```
+Ctrl + Cmd + Space
+```
 
-You can use any statiscs platform of your choosing that is based on client javascript. We recommend the following:
+Windows 
+```
+Windows + ; (semi-colon) 
+``` 
+or
+```
+Windows + . (period)
+```
 
-- [Amplitude](https://amplitude.com/homepage)
-- [Hotjar](https://www.hotjar.com/)
 
-You can use any of the functions for load and click defined on the javascript file of the LinkFree template or add code snippets to the Head or Body of the HTML file.
+## Sources
 
-## How to contribute?
-
-There are a three ways you can contribute. You can make changes to the core LinkFree project, create new LinkFree templates or just share your LinkFree.
-
-### Creating Templates
-
-A new template is a general LinkFree that has a distinctive structure or style when compared to previous templates.
-
-To submit one, you just have to make a pull request with your addition in the "Templates" directory.
+The Avatar in the preview is by [unDraw](https://undraw.co/).
